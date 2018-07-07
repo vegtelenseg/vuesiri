@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+.app {
+  background: url("../../assets//images//banner-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 165vh;
+  background-position: top;
+  margin-top: -32em; }
+  .app .title {
+    top: 0;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    opacity: 0.76;
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    z-index: 9999;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1.4em; }
+  .app .overlay {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    z-index: 2; }
+  .app .main-section .logo {
+    background: url("../../assets/images/logo.png");
+    background-size: cover;
+    height: 11em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    width: 100%; }
+    .app .main-section .logo .sub-heading {
+      display: inline-block;
+      z-index: 9999;
+      color: white;
+      font-family: Helvetica, sans-serif;
+      left: 50%;
+      position: relative;
+      transform: translateX(-50%);
+      top: 65%;
+      opacity: .75; }
