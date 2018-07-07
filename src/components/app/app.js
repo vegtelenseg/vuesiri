@@ -11,6 +11,7 @@ class App extends React.Component {
                     <div className="logo">
                         <p className="sub-heading">Platform for creators, by creators</p>
                     </div>
+                    <button className="click-here">Click Here</button>
                 </div>
             </div>
         );

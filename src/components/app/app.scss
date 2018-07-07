@@ -16,8 +16,9 @@ body {
         font-size: 0.7em;
         opacity: 0.76;   
         position: absolute;
-        font-family: Helvetica, sans-serif;
+        font-family: juraLight;
         color: white;
+        letter-spacing: 2.5px;
         z-index: 9999;
         justify-content: center;
         left: 50%;
@@ -46,9 +47,25 @@ body {
             transform: translate(-50%, -50%);
             z-index: 9999;
             width: 100%;
+            &::after {
+                content: '';
+                background: white;
+                height: 17vh;
+                position: absolute;
+                left: 50%;
+                bottom: 0;
+                transform: translateX(-50%);
+                width: 1px;
+                margin-bottom: -7.5em;
+                opacity: .78;
+            }
             .sub-heading {
                 display: inline-block;
                 z-index: 9999;
+                font-family: juraLight !important;
+                letter-spacing: 2.2px;
+                margin-top: 1.4em;
+                text-align: center;
                 color: white;
                 font-family: Helvetica, sans-serif;
                 left: 50%;
@@ -58,7 +75,24 @@ body {
                 opacity: .75;
             }
         }
-        .heading {
+        .click-here {
+            position: absolute;
+            left: 50%;
+            top: 85%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+            border: 1px solid white;
+            border-radius: 50px;
+            box-sizing: border-box;
+            background: none;
+            color: white;
+            outline: none;
+            opacity: .680;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding: .68em 2.4em;
+            font-family: juraLight;
+            cursor: pointer;
         }
     }
 }
