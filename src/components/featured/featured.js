@@ -3,19 +3,23 @@ import React from 'react';
 const images = [
     {
         url: require('../../assets/images/featured/nathan.jpg'),
-        alt: 'nathan'
+        alt: 'Nathan',
+        occupation: 'Kinetic Typographer'
     },
     {
         url: require('../../assets/images/featured/oladimeji.jpg'),
-        alt: 'oladimeji'
+        alt: 'Oladimeji',
+        occupation: 'Web Designer'
     },
     {
         url: require('../../assets/images/featured/tanja.jpg'),
-        alt: 'tanja'
+        alt: 'Tanja',
+        occupation: 'Sound Engineer'
     },
     {
         url: require('../../assets/images/featured/tyler.jpg'),
-        alt: 'tyler'
+        alt: 'Tyler',
+        occupation: 'Music Composer'
     }
 ];
 export default class Featured extends React.Component {
@@ -27,6 +31,10 @@ export default class Featured extends React.Component {
                     {images.map((img, idx) => (
                         <div className="artist-image">
                             <img key={idx} alt={img.alt} src={img.url} className="" />
+                            <div className="about-artist">
+                                <p className="name">{img.alt}</p>
+                                <p className="occupation">{img.occupation}</p>
+                            </div>
                             <div className="img-overlay" />
                         </div>
                     ))}
