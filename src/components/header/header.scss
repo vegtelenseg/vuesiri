@@ -16,10 +16,11 @@
         left: 50%;
         transform: translateX(-50%);
         ul {
-            padding: 0 0 2em 0;
+            padding: 0 0 1em 0;
             margin: 0;
         }
         li {
+            cursor: pointer;
             list-style-type: none;
             display: inline-block;
             margin: 0 2.6em;
@@ -28,6 +29,10 @@
             }
             &:first-child {
                 margin-left: 0;
+            }
+            a {
+                text-decoration: none;
+                color: inherit;
             }
         }
     }
