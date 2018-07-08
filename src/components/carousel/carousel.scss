@@ -7,7 +7,7 @@
     .slick-dots {
         display: block;
         position: absolute;
-        bottom: 1.2em;
+        bottom: 2.3em;
         li {
             button::before {
                 font-size: 8px;
@@ -25,7 +25,7 @@
         z-index: 9999;
     }
     .slick-prev {
-        left: 20px;
+        left: 30px;
         &::before {
             content: '';
             position: relative;
@@ -33,9 +33,23 @@
             background: url('../../assets/icons/chevron-left.svg');
             background-repeat: no-repeat;
             background-size: cover;
+            width: 50px;
+            height: 50px;
+            
         }
     }
     .slick-next {
-        right: 20px;
+        right: 55px;
+        &::before {
+            content: '';
+            position: absolute;
+            display: inline-block;
+            background: url('../../assets/icons/chevron-right.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            
+        }
     }
 }
