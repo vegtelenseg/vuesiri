@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../header/header';
 import Featured from '../featured/featured';
 import Carousel from '../carousel/carousel';
+import Subscribe from '../subscribe/subscribe';
 
 export default class HomePage extends React.Component {
     render() {
@@ -15,6 +16,9 @@ export default class HomePage extends React.Component {
                 </div>
                 <div className="featured-section">
                     <Featured />
+                </div>
+                <div className="subscribe-section">
+                    <Subscribe />
                 </div>
             </div>
         );

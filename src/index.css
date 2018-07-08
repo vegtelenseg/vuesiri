@@ -3,6 +3,7 @@
 @import url(./components/header/header.css);
 @import url(./components/home-page/home-page.css);
 @import url(./components/featured/featured.css);
+@import url(./components/subscribe/subscribe.css);
 @font-face {
   font-family: 'JuraLight';
   font-style: normal;
