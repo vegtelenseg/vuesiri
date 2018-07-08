@@ -25,7 +25,10 @@ export default class Featured extends React.Component {
                 <p className="featured-heading">Featured Artists</p>
                 <div className="featured">
                     {images.map((img, idx) => (
-                        <img key={idx} alt={img.alt} src={img.url} className="" />
+                        <div className="artist-image">
+                            <img key={idx} alt={img.alt} src={img.url} className="" />
+                            <div className="img-overlay" />
+                        </div>
                     ))}
                 </div>
             </div>
