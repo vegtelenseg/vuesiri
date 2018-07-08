@@ -6,7 +6,7 @@ export default class Header extends React.Component {
     render() {
         return (
             <div className="header">
-                <img src={logo} className="logo" alt="vuesiri-logo" />
+                <Link to="/"><img src={logo} className="logo" alt="vuesiri-logo" /></Link>
                 <div className="header-items">
                     <ul>
                         <li>
