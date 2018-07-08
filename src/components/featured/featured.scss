@@ -32,6 +32,7 @@
             height: 500px;
             width: 100%;
             overflow: hidden;
+            transition: all 0.2s ease-in-out;
             box-shadow: 0em 0.5em 1em #888888;
             cursor: pointer;
             .about-artist {
@@ -60,6 +61,8 @@
                 }
             }
             &:hover {
+                box-shadow: 0em 0.7em 2em #888888;
+
                 .img-overlay {
                     opacity: 1;
                 }
