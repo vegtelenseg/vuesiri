@@ -49,14 +49,14 @@
                     opacity: 0.75;
                     color: white;
                     font-family: juraLight;
-                    // letter-spacing: 2px;
+                    letter-spacing: 1px;
                     margin-top: 2.4em;
                     z-index: 9999;
                     overflow: hidden;
                     white-space: nowrap;
                     border-right: 0.08em solid white;
                     padding-right: 0.34em;
-                    animation: typing 3.5s steps(40, end), blinking-cursor 1s step-end infinite;
+                    animation: typing 4s steps(40, end), blinking-cursor 1s step-end infinite;
                 }
                 &::after {
                     content: '';
@@ -103,7 +103,7 @@
                 }
                 .chevron-down-white {
                     top: 5.34em;
-                    animation: bounce 1s infinite;
+                    animation: bounce 3s infinite;
                     .feather-chevron-down {
                         stroke: white;
                     }
@@ -131,7 +131,7 @@
             width: 0;
         }
         to {
-            width: 20%;
+            width: 22%;
         }
     }
     @keyframes blinking-cursor {
