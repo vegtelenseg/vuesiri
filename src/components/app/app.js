@@ -8,7 +8,8 @@ class App extends React.Component {
                 <p className="title">online magazine</p>
                 <div className="overlay" />
                 <div className="main-section">
-                    <div className="logo">
+                    <div className="intro">
+                        <img src={logo} className="logo" />
                         <p className="sub-heading">Platform for creators, by creators</p>
                     </div>
                     <button className="click-here">Click Here</button>
