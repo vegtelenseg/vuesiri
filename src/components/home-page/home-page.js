@@ -1,5 +1,4 @@
 import React from 'react';
-import Slider from 'react-slick';
 import Header from '../header/header';
 import Featured from '../featured/featured';
 import Carousel from '../carousel/carousel';
