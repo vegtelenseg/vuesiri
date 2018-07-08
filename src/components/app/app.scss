@@ -4,12 +4,12 @@ body {
     padding: 0;
 }
 .app {
-    background: url('../../assets//images//banner-min.jpg') no-repeat center center fixed;
- //   background-repeat: no-repeat;
-   // background-size: cover;
-    //height: 175vh;
-   // background-position: top;
-   // margin-top: -32em;
+    background: url('../../assets//images//banner-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 175vh;
+    background-position: top;
+    margin-top: -32em;
     .title {
         top: 0;
         text-transform: uppercase;
