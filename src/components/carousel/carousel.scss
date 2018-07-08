@@ -21,4 +21,21 @@
             }
         }
     }
+    .slick-arrow {
+        z-index: 9999;
+    }
+    .slick-prev {
+        left: 20px;
+        &::before {
+            content: '';
+            position: relative;
+            display: inline-block;
+            background: url('../../assets/icons/chevron-left.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    .slick-next {
+        right: 20px;
+    }
 }
