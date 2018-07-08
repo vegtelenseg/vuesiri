@@ -14,7 +14,7 @@ body {
         top: 0;
         text-transform: uppercase;
         font-size: 0.7em;
-        opacity: 0.76;   
+        opacity: 0.76;
         position: absolute;
         font-family: juraLight;
         color: white;
@@ -38,47 +38,44 @@ body {
     }
     .main-section {
         .logo {
-            background: url('../../assets/images/logo.png');
-            background-size: cover;
-            height: 11em;
             position: absolute;
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
             z-index: 9999;
             width: 100%;
+        }
+        .intro {
+            .sub-heading {
+                position: absolute;
+                top: 50%;
+                left: 51.2%;
+                transform: translateX(-50%);
+                opacity: 0.75;
+                color: white;
+                font-family: juraLight;
+               // letter-spacing: 2px;
+                margin-top: 2.4em;
+                z-index: 9999;
+            }
             &::after {
                 content: '';
                 background: white;
-                height: 17vh;
+                height: 7em;
                 position: absolute;
                 left: 50%;
-                bottom: 0;
+                top: 50%;
                 transform: translateX(-50%);
                 width: 1px;
-                margin-bottom: -7.5em;
-                opacity: .78;
-            }
-            .sub-heading {
-                display: inline-block;
+                margin: 4.55em 0;
+                opacity: .68;
                 z-index: 9999;
-                font-family: juraLight !important;
-                letter-spacing: 2.2px;
-                margin-top: 1.4em;
-                text-align: center;
-                color: white;
-                font-family: Helvetica, sans-serif;
-                left: 50%;
-                position: relative;
-                transform: translateX(-50%);
-                top: 65%;
-                opacity: .75;
             }
         }
         .click-here {
             position: absolute;
             left: 50%;
-            top: 85%;
+            top: 83%;
             transform: translate(-50%, -50%);
             z-index: 9999;
             border: 1px solid white;
@@ -87,10 +84,10 @@ body {
             background: none;
             color: white;
             outline: none;
-            opacity: .680;
+            opacity: 0.76;
             text-transform: uppercase;
             letter-spacing: 2px;
-            padding: .68em 2.4em;
+            padding: 0.68em 2.4em;
             font-family: juraLight;
             cursor: pointer;
         }
