@@ -1,5 +1,7 @@
 /* latin */
 @import url(./components/app/app.css);
+@import url(./components/header/header.css);
+@import url(./components/carousel/carousel.css);
 @font-face {
   font-family: 'JuraLight';
   font-style: normal;
