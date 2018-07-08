@@ -11,7 +11,7 @@ export default class LandingPage extends React.Component {
                     <div className="main-section">
                         <div className="intro">
                             <img src={logo} className="logo" alt="vuesiri-logo" />
-                            <p className="sub-heading">Platform for creators, by creators</p>
+                            <p className="sub-heading">Platform for creators, by creators.</p>
                         </div>
                         {this.renderButtonAndArrows('Click Here')}
                     </div>
