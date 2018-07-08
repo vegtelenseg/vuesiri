@@ -40,3 +40,129 @@
   font-weight: 700;
   src: local("Jura Bold"), local("Jura-Bold"), url(https://fonts.gstatic.com/s/jura/v9/z7NUdRfiaC4VVX9sRCti0bbWRP0.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+.app {
+  background: url("./assets/images//banner-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 175vh;
+  background-position: top;
+  margin-top: -32em; }
+  .app .title {
+    top: 0;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    opacity: 0.76;
+    position: absolute;
+    font-family: juraLight;
+    color: white;
+    letter-spacing: 2.5px;
+    z-index: 9999;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1.4em; }
+  .app .overlay {
+    display: block;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    z-index: 2; }
+    .app .overlay .main-section {
+      height: 100%; }
+      .app .overlay .main-section .logo {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 9999;
+        width: 100%; }
+      .app .overlay .main-section .intro .sub-heading {
+        position: absolute;
+        top: 50%;
+        left: 51.2%;
+        transform: translateX(-50%);
+        opacity: 0.75;
+        color: white;
+        font-family: juraLight;
+        margin-top: 2.4em;
+        z-index: 9999;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 0.08em solid white;
+        padding-right: 0.34em;
+        animation: typing 3.5s steps(40, end), blinking-cursor 1s step-end infinite; }
+      .app .overlay .main-section .intro::after {
+        content: '';
+        background: white;
+        height: 7em;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%);
+        width: 1px;
+        margin: 4.55em 0;
+        opacity: 0.68;
+        z-index: 9999; }
+      .app .overlay .main-section .click-here {
+        position: absolute;
+        left: 50%;
+        top: 83%;
+        transform: translate(-50%, -50%);
+        z-index: 9999;
+        border: 1px solid white;
+        border-radius: 50px;
+        box-sizing: border-box;
+        background: none;
+        color: white;
+        outline: none;
+        opacity: 0.76;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding: 0.68em 2.4em;
+        font-family: juraLight;
+        cursor: pointer; }
+        .app .overlay .main-section .click-here .chevron-down-grey,
+        .app .overlay .main-section .click-here .chevron-down-white {
+          position: absolute;
+          left: 50%;
+          top: 5em;
+          transform: translate(-50%, -50%);
+          animation: bounce 3s infinite; }
+          .app .overlay .main-section .click-here .chevron-down-grey .feather-chevron-down,
+          .app .overlay .main-section .click-here .chevron-down-white .feather-chevron-down {
+            stroke: #727272; }
+        .app .overlay .main-section .click-here .chevron-down-white {
+          top: 5.34em;
+          animation: bounce 1s infinite; }
+          .app .overlay .main-section .click-here .chevron-down-white .feather-chevron-down {
+            stroke: white; }
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translate(-50%, 0); }
+  40% {
+    transform: translate(-50%, -25px); }
+  60% {
+    transform: translate(-50%, -7.5px); } }
+
+@keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 20%; } }
+
+@keyframes blinking-cursor {
+  from,
+  to {
+    border-color: transparent; }
+  50% {
+    border-color: white; } }
