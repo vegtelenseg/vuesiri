@@ -1,12 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Route, Link, Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import LandingPage from '../landing-page/landing-page';
+import HomePage from '../carousel/carousel';
 class App extends React.Component {
     render() {
         return (
-            <Route>
-                <LandingPage />
-            </Route>
+            <Router>
+                <Switch>
+                    <Route exact path="/" component={LandingPage} />
+                    <Route path="/home" component={HomePage} />
+                </Switch>
+            </Router>
         );
     }
 }

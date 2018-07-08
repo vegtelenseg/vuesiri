@@ -1,13 +1,12 @@
 import React from 'react';
 import Slider from 'react-slick';
 import Header from '../header/header';
-import Carousel from '../carousel/carousel';
 import pic1 from '../../assets/images/carousel/frankie-min.jpg';
 import pic2 from '../../assets/images/carousel/alex-holyoake-min.jpg';
 import pic3 from '../../assets/images/carousel/smoke-min.jpg';
 import pic4 from '../../assets/images/carousel/jay-wennington-min.jpg';
 
-export default class Carousel extends React.Component {
+export default class HomePage extends React.Component {
     render() {
         var settings = {
             dots: true,
