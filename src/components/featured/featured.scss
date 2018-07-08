@@ -1,0 +1,21 @@
+.featured-section {
+    .featured-heading {
+        color: black;
+        text-align: center;
+        font-family: JuraSemiBold;
+        font-size: 2em;
+        margin-top: em;
+        position: relative;
+        &::after {
+            content: '';
+            width: 2em;
+            height: 2px;
+            background: black;
+            position: absolute;
+            margin-top: 0.76em;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, 50%);
+        }
+    }
+}
