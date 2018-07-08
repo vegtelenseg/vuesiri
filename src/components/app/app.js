@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import LandingPage from '../landing-page/landing-page';
-import HomePage from '../carousel/carousel';
+import HomePage from '../home-page/home-page';
 class App extends React.Component {
     render() {
         return (
