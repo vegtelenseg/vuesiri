@@ -1,7 +1,46 @@
 .subscribe-section {
     .subscribe {
+        position: relative;
         img {
             width: 100%;
+        }
+        .iPhone-container {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            overflow: hidden;
+            z-index: 9999;
+            height: 100%;
+            .iPhone {
+                position: absolute;
+                left: 70%;
+                top: 40%;
+                transform: translate(-50%, -50%);
+                overflow-x: hidden;
+            }
+        }
+        .log-in-sign-up {
+            position: absolute;
+            top: 68%;
+            left: 18%;
+            transform: translate(-50%, -50%);
+            a {
+                text-decoration: none;
+                color: black;
+                font-family: HelvetBold;
+                text-transform: uppercase;
+                &:first-child {
+                    font-size: 2em;
+                    margin-right: .3em;
+                    padding-top: 1em;
+                }
+                &:last-child {
+                    border: 1px solid;
+                    padding: 1em;
+                }
+            }
         }
     }
 }
